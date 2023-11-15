@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>엘프쿨</title>
+  <meta charset="utf-8">
+  <link href="css/login.css" rel="stylesheet">
+</head>
+<body>
+  <div class="login-form">
+    <button type="button" class="back" value="" onClick="history.go(-1)">
+        <img src="images/arrow.png">
+    </button>
+    <form>
+      <input type="text" name="login_emailsum" id="login_emailsum" class="login_emailsum" placeholder="이메일">
+      <input type="password" name="login_pwd" id="login_pwd" class="login_pwd" placeholder="비밀번호">
+      <input type="button" onclick="submit_btn(this.form)" class="submit-btn"  value="로그인">
+    </form>
+
+    <div class="join">
+      <a href="join.html">회원가입</a>
+    </div>
+  </div>
+</body>
+<script src="js/login.js"></script>
+</html>
